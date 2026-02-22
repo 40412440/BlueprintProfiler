@@ -7,30 +7,18 @@
 	"Category": "Performance",
 	"CreatedBy": "小南并没有",
 	"CreatedByURL": "https://space.bilibili.com/13578876",
-	"DocsURL": "",
-	"MarketplaceURL": "",
+	"DocsURL": "https://github.com/xnbmy/BlueprintProfiler",
+	"FabURL": "com.epicgames.launcher://ue/Fab/product/d79c39e7-4fdc-4e84-ae04-c568ef5517b4",
 	"SupportURL": "https://space.bilibili.com/13578876",
-	"EngineVersion": "5.5.0",
+	"EngineVersion": "5.7.0",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": false,
-	"LocalizationTargets": [
-		{
-			"Name": "BlueprintProfiler",
-			"LoadingPolicy": "Editor",
-			"ConfigPath": "Content/Localization/BlueprintProfiler/BlueprintProfiler.locmeta"
-		}
-	],
 	"Modules": [
 		{
 			"Name": "BlueprintProfiler",
 			"Type": "Editor",
-			"LoadingPhase": "Default",
-			"PlatformAllowList": [
-				"Win64",
-				"Linux"
-			]
+			"LoadingPhase": "Default"
 		}
 	]
 }

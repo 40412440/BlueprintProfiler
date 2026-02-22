@@ -691,7 +691,7 @@ void FRuntimeProfiler::EnableBlueprintInstrumentation()
 	}
 	else
 	{
-		UE_LOG(LogTemp, Error, TEXT("CRITICAL: Could not find bp.EnableInstrumentation console variable! Blueprint profiling will not work."));
+		UE_LOG(LogTemp, Warning, TEXT("Could not find bp.EnableInstrumentation console variable. Blueprint profiling may be limited on this engine version."));
 	}
 
 	// 2. Bind the core delegate to receive node execution events
